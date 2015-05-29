@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>net.kungfudiscomonkey.alfred.roulette</string>
+	<key>category</key>
+	<string>自分</string>
+	<key>connections</key>
+	<dict>
+		<key>33702A2A-76A8-4C20-BD2B-AB122B433EE3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>76DDD4F7-FB71-460E-9074-7A4AFAE28F42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Paul Traylor</string>
+	<key>description</key>
+	<string>Pick a random GitHub Issue to work on</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Roulette</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>76DDD4F7-FB71-460E-9074-7A4AFAE28F42</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>roulette</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>script</key>
+				<string>python roulette.py</string>
+				<key>title</key>
+				<string>Spinning the roulette wheel</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>33702A2A-76A8-4C20-BD2B-AB122B433EE3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>33702A2A-76A8-4C20-BD2B-AB122B433EE3</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>76DDD4F7-FB71-460E-9074-7A4AFAE28F42</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://kungfudiscomonkey.net</string>
+</dict>
+</plist>

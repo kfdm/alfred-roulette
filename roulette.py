@@ -6,7 +6,7 @@ from workflow import Workflow, web
 
 
 def open_issues():
-    return web.get('https://api.github.com/search/issues?q=is:open%20is:issue%20user:kfdm&per_page=100').json()
+    return web.get('https://api.github.com/search/issues?q=is:open%20is:issue%20user:kfdm%20archived:false&per_page=100').json()
 
 
 def main(wf):
